@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Leo love Ann</title>
+    <link rel="stylesheet" type="text/css" href="theme.css"> 
+    <link rel="stylesheet" type="text/css" href="./icons/css/all.min.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Quicksand&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="heading">
+        Leo & Ann
+        <span class="heading-subtext">傻狗與馴獸相愛</span>
+      </h1>
+    </header>
+    <a data-scroll class="fixed-button" href="#rsvp" id="rsvpButton">請往下滑</a> 
+    <section class="section">
+      <h2 class="sub-heading">關於一支傻狗跟一支馴獸師</h2>
+      <p>我們在2022相遇，然後很快的見了朋友、家人，一切都像在趕火車一樣，但我很感動有這樣一個好女孩陪著我。</p>
+    </section>
+    <section class="section">
+      <h2 class="sub-heading">相關日期：</h2>
+      <div class="details">
+        <i class="fas fa-calendar-check"></i>
+        <h3 class="details-heading">認識紀念日：</h3>
+        <p>2022 / 3 /1 </p>
+        <!-- <a title="Add to Calendar" rel="noopener" href="#" target="_blank" rel="nofollow">Add to Calendar</a> -->
+      </div>
+      <div class="details">
+        <i class="fas fa-map-marked-alt"></i>
+        <h3 class="details-heading">第一次約會</h3>
+        <p>樂華夜市 吃海雞肉飯+貢丸&魚丸湯</p>
+        <!-- <img class="resort-image" src="./img/resort.jpeg" alt="Resort" /> -->
+      </div>
+       <div class="details">
+        <i class="fas fa-plane-departure"></i>
+        <h3 class="details-heading">我們的故事</h3>
+        <p>我們在2022/3/1相識，2022/3/4第一次出門，然後3/8你很驕傲地帶著我去見你的好朋友們，接著10號我去我夢想的公司，11號我們就迎來第一次一起住，12號買禮物跟見叔叔</p>
+        <P>這過程，或許就像搭高鐵一樣，很快，超快，可是我很謝謝妳知道我的事情後，不離不棄，還把我當男友疼愛，甚至送我我夢寐以求的APU NB一台，這些事情，讓我真的很感動</P>
+      </div>
+      <div class="details">
+        <i class="fas fa-suitcase"></i>
+        <h3 class="details-heading">這是我想給你的小驚喜</h3>
+      </div>
+      <!-- <div class="details">
+        <i class="fas fa-asterisk"></i>
+        <h3 class="details-heading">Other Notes</h3>
+        <p>Cake dessert mother guitar acoustic bass cheers, uncle joe seat covers guitar acoustic bass macarena seat covers cake dessert embarrassing.</p>
+        <p>Also, your presence is the only present we desire. No gift required.</p>
+      </div> -->
+      <div class="details">
+        <i class="fas fa-reply"></i>
+        <h3 class="details-heading" id="rsvp">最後想跟妳說</h3>
+        <p>大寶貝，謝謝妳對我的好，我會更上進更努力的不離不棄去證明。</p>
+           <p>另外，生日快樂，我愛妳 張安瑜❤
+        </p>
+        <!-- Include Embedded link of Google Form here in place of # -->
+        <!-- <iframe title="RSVP" src="" style="width:100%;" height="960" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+      </div>
+    </section>
+    <script src="./js/smooth-scroll.polyfills.min.js"></script>
+    <script defer>
+      var scroll = new SmoothScroll('a[href*="#"]');
+      var rsvpButton = document.getElementById('rsvpButton')
+      rsvpButton.addEventListener('click',hideButton,false);
+
+      function hideButton() {
+        rsvpButton.style.display = 'none';
+      }   
+    </script>
+  </body>
+</html>
